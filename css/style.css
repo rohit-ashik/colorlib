@@ -1,0 +1,571 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* 
+https://preview.colorlib.com/theme/interior2/img/prise/3.png */
+
+
+
+
+
+/********************************************
+           Navbar-section-desigon
+********************************************/
+
+.first-section{
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+.menu-design ul li a{
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.menu-right a{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-bottom: 3px solid #FFE8C3;
+    
+}
+
+
+
+
+/********************************************
+           banner-section-desigon
+********************************************/
+
+.banner-section{
+    width: 100%;
+    background-image: url(../images/banner.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.backoverlay{
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+}
+.banner-title{
+   width: 100%;
+   height: 100vh;
+   display: table-cell;
+   vertical-align: middle;
+   
+}
+
+.banner-title h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-bottom: 27px;
+    color: #fff;
+}
+.banner-title button{
+    background: #FFE8C3;
+    color: #001D38;
+    
+    padding: 19px 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    text-align: center;
+    
+    text-transform: capitalize;
+    transition: 0.3s;
+    cursor: pointer;
+
+    letter-spacing: 2px;
+}
+
+
+
+
+/********************************************
+           Card-section-desigon
+********************************************/
+
+.card-section{
+    width: 100%;
+
+}
+.c-all{
+    width: 100%;
+    
+}
+.cards{
+    padding: 62px 48px;
+}
+.card-upper{
+    padding: 0px 40px;
+}
+.card-title h3{
+    font-size: 30px;
+    color: #001D38;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    z-index: 999999;
+    font-family: "Poppins", sans-serif;
+    margin-top: 10px;
+}
+.card-title{
+    display: flex;
+    align-items: center;
+
+}
+.left-design{
+  
+    height: 3px;
+    width: 32px;
+    background-color: #FFD35A;
+    
+    z-index: 1400;
+}
+.card-1, .card-2, .card-3{
+    flex-grow: 1;
+}
+
+.card-upper p{
+    padding-left: 45px;
+    margin-bottom: 100px;
+    opacity: 0;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+   
+    font-size: 16px;
+}
+
+.card-serial h1{
+    font-size: 179px;
+    font-weight: 500;
+    color: #E5E8EA;
+    
+    line-height: 1;
+    
+}
+.card-1:hover .card-upper h3 , .card-2:hover .card-upper h3 ,.card-3:hover .card-upper h3{
+    color: #fff;
+    z-index: 1400;
+    position: relative;
+    transition: all .5s ease;
+    font-size: 30px;
+}
+.card-1:hover .card-upper p , .card-2:hover .card-upper p ,.card-3:hover .card-upper p{
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    z-index: 1400;
+    position: relative;
+    transition: all .5s ease;
+    
+}
+.card-1:hover .card-serial h1 , .card-2:hover .card-serial h1 ,.card-3:hover .card-serial h1{
+    color: rgb(255, 255, 255,0.3);
+    z-index: 1400;
+    position: relative;
+    transition: all .5s ease;
+}
+
+
+.card-1:hover{
+    position: relative;
+    background-image: url(../images/2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.card-2:hover{
+    position: relative;
+    background-image: url(../images/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.card-3:hover{
+    position: relative;
+    background-image: url(../images/3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+
+.card-1:hover::before, .card-2:hover::before, .card-3:hover::before{
+    content: '';
+    position: absolute;
+    background-color: #001D38;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1200;
+    transition: all .5s ease;
+}
+
+
+
+/********************************************
+           Work-section-desigon
+********************************************/
+.work-section{
+    width: 100%;
+    background-color: #F5FBFF;
+    padding: 180px 0px 310px 0px;
+}
+
+.work-title h2{
+    font-size: 48px;
+    
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+/********************************************
+           House section-desigon
+********************************************/
+.wb-house-section{
+    width: 100%;
+    padding-bottom: 80px;
+}
+.houses{
+    margin-top: -245px;
+}
+.house-left{
+    width: 100%;
+}
+.wb-house-section .houses .col-md-5{
+    display: flex;
+    align-items: center;
+}
+.house-right h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #001D38;
+    font-family: "Poppins", sans-serif;
+}
+.house-right p{
+    color: #596672;
+    margin-top: 12px;
+    margin-bottom: 38px;
+}
+.house-right button{
+    color: #fff !important;
+    display: inline-block;
+    padding: 14px 47px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid #001D38;
+    
+    border-radius: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    
+    transition: 0.5s;
+    background: #001D38;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.house-right button:hover{
+    color: #001D38 !important;
+    background-color: transparent;
+    border: 1px solid #001D38;
+}
+
+
+/********************************************
+           Art Gallery section-desigon
+********************************************/
+.art-gallery-section{
+    width: 100%;
+    padding-bottom: 80px;
+}
+.art-gallery-section .art-g .col-md-5{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/********************************************
+           Progress section-desigon
+********************************************/
+
+
+.progress-section{
+    width: 100%;
+    background-color: #F5FBFF;
+}
+
+.p-right h3{
+    font-size: 40px;
+    font-weight: 500;
+    color: #001D38;
+    width: 70%;
+
+}
+.p-right p{
+    color: #596672;
+    margin-top: 12px;
+    
+}
+
+.p-right button{
+    color: #fff !important;
+    
+    padding: 14px 47px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid #001D38;
+    
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    background: #001D38;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-top: 16px;
+}
+
+.p-right button:hover{
+    color: #001D38 !important;
+    background-color: transparent;
+    border: 1px solid #001D38;
+}
+
+
+
+
+
+
+/********************************************
+           Progress bar plugin section-desigon
+********************************************/
+
+.single-progressbar .title {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.single-progressbar {
+    margin-bottom: 10px;
+}
+
+
+
+
+/********************************************
+           Reveiw section section-desigon
+********************************************/
+.reveiw-section{
+    width: 100%;
+   
+    height: 80vh;
+    
+}
+/********************************************
+           Carousel content desigon
+********************************************/
+.slide-content{
+    text-align: center;
+    color: #fff !important;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 80vh;
+    z-index: 999999;
+    position: relative;
+    font-family: "Poppins", sans-serif !important;
+}
+.r-up p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: "Poppins", sans-serif;
+}
+
+.reveiwer h6{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.reveiwer p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+.r-up img{
+    height:42px; 
+    width:42px;
+    display: inline-flex;
+    align-items: center;
+}
+.reveiwer img{
+    height:42px; 
+    width:42px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************
+           Owl Carousel desigon
+********************************************/
+
+.owl-carousel {
+    width: 100%;
+    height: 80vh;
+}
+
+.slide {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slide::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 29, 56, .5);
+    
+}
+
+.slide-1 {
+    background-image: url(../images/testmonial.png);
+}
+
+.slide-2 {
+    background-image: url(../images/testmonial.png);
+}
+
+.slide-3 {
+    background-image: url(../images/testmonial.png);
+}
+
+
+
+
+
+
+
+.owl-dots {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 1%;
+    display: none;
+}
+
+.owl-dots span {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.owl-dots button {
+    border: none !important;
+    outline: none !important;
+}
+
+.owl-nav button {
+    border: 1px solid rgb(167, 167, 167) !important;
+    outline: none !important;
+}
+
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff !important;
+    font-size: 50px !important;
+    font-weight: 200 !important;
+    background:none !important;
+   
+    height: 50px;
+    width: 50px;
+    line-height: 35px !important;
+    border-radius: 50%  !important;
+    
+}
+
+.owl-prev:hover, .owl-next:hover{
+    background-color: #001D38 !important;
+    border: none !important;
+}
+
+
+.owl-prev {
+    left: 5%;
+    
+    
+}
+
+.owl-next {
+    right: 5%;
+}
