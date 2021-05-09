@@ -14,6 +14,22 @@
         height: 38px;
         width: 38px;
     }
+    .menu-design ul li a::before{
+        content: '';
+        transition: .3s ease-in;
+        height: 3px;
+        background-color: #FFE8C3;
+        
+        width: 0%;
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        
+    }
+    .menu-design ul li a:hover::before{
+        width: 100%;
+        transition: .3s ease-in;
+    }
     
   }
   
@@ -44,6 +60,23 @@
     .p-right{
         padding-top: 16px;
     }
+    .menu-design ul li a::before{
+        content: '';
+        transition: .3s ease-in;
+        height: 3px;
+        background-color: #FFE8C3;
+        
+        width: 0%;
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        
+    }
+    .menu-design ul li a:hover::before{
+        width: 100%;
+        transition: .3s ease-in;
+    }
+    
     
   }
   
@@ -133,6 +166,7 @@
         content:"";
         background:no-repeat center center;
     }
+    
   }  
   
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
