@@ -27,12 +27,42 @@ https://preview.colorlib.com/theme/interior2/img/prise/3.png */
     z-index: 9999;
     height: auto;
 }
+.sticky{
+    width: 100%;
+    position: fixed;
+    background-color: #2C2C2C;
+    transition: .7s ease-in;
+    z-index: 999999;
+    padding: 0px;
+}
 .menu-design ul li a{
     color: #fff;
     font-size: 15px;
     text-transform: capitalize;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
+    padding: 8px 16px;
+}
+
+.nav-link{
+    position: relative !important;
+    padding: 8px 0px !important;
+}
+.menu-design ul li a::before{
+    content: '';
+    transition: .3s ease-in;
+    height: 3px;
+    background-color: #FFE8C3;
+    
+    width: 0%;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    
+}
+.menu-design ul li a:hover::before{
+    width: 100%;
+    transition: .3s ease-in;
 }
 .menu-right a{
     text-transform: capitalize;
@@ -45,6 +75,7 @@ https://preview.colorlib.com/theme/interior2/img/prise/3.png */
     
 }
 .navbar-nav{
+    z-index: 9999999 !important;
     /* background-color: #fff !important; */
     
 }
@@ -63,8 +94,21 @@ https://preview.colorlib.com/theme/interior2/img/prise/3.png */
     border-radius: 3px;
     outline: none;
     box-shadow: none;
+
+}
+.dropdown-menu li{
+    
 }
 
+.dropdown-menu li a{
+    color: black !important;
+    
+    
+}
+.dropdown-menu li a:hover{
+    background-color: #FFE8C3 !important;
+    
+}
 
 /* *******************************************
            banner-section-desigon
@@ -315,7 +359,7 @@ https://preview.colorlib.com/theme/interior2/img/prise/3.png */
     font-weight: 500;
     margin-bottom: 10px;
     padding-left: 15px;
-    z-index: 999999;
+    z-index: 2500;
     font-family: "Poppins", sans-serif;
     margin-top: 10px;
 }
@@ -427,7 +471,7 @@ https://preview.colorlib.com/theme/interior2/img/prise/3.png */
 .work-section{
     width: 100%;
     background-color: #F5FBFF;
-    padding: 180px 0px 310px 0px;
+    padding: 100px 0px 310px 0px;
 }
 
 .work-title h2{
@@ -1135,6 +1179,18 @@ footer section carousel design
     padding: 10px;
     padding: 0 22px;
     cursor: pointer;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: .3s ease;
+    
+}
+.last-right button:hover{
+    
+    color: #ffffff;
+    background: transparent;
+    transition: .3s ease;
+    border: 1px solid #FFE8C3;
     border-radius: 30px;
     font-size: 14px;
     font-weight: 500;
