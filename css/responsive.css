@@ -55,6 +55,7 @@
   @media (min-width: 768px) and (max-width: 1023px) {
     
     /* CSS */
+    
     /********************************************
            Card-section-desigon
     ********************************************/
@@ -88,10 +89,56 @@
     ##Device = Tablets, Ipads (landscape)
     ##Screen = B/w 768px to 1024px
   */
+
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    
+    /* CSS */
+    /***********************************
+    Navbar
+    ***********************************/
+
+    .navbar-nav{
+        background-color: #fff !important;
+        z-index: 999999 !important;
+        
+    }
+    .nav-link{
+        color: black  !important;
+    }
+    .navbar-toggler{
+        padding:.25rem .50rem;
+        font-size:1.25rem;
+        line-height:1;
+        background-color:transparent;
+        border:1px solid #ffffff;
+        border-radius: 3px;
+    }
+    .navbar-toggler:focus,.navbar-toggler:hover{
+        text-decoration:none;
+        padding:.25rem .50rem;
+        font-size:1.25rem;
+        line-height:1;
+        background-color:transparent;
+        border:1px solid #ffffff;
+        border-radius: 3px;
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-toggler-icon{
+        display:inline-block;
+        width:1.5em;
+        height:1.5em;
+        vertical-align:middle;
+        content:"";
+        background:no-repeat center center;
+    }
+  }  
   
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
     /* CSS */
+    
 
     /********************************************
            Card-section-desigon
