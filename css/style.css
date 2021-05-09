@@ -105,7 +105,7 @@ nav .navbar-collapse.collapsing ul, nav .navbar-collapse.show ul {
 
 .dropdown-menu li a{
     color: black !important;
-    
+    padding: 16px 24px;
     
 }
 .dropdown-menu li a:hover{
