@@ -48,7 +48,7 @@ https://preview.colorlib.com/theme/interior2/img/prise/3.png */
     position: relative !important;
     padding: 8px 0px !important;
 }
-.menu-design ul li a::before{
+/* .menu-design ul li a::before{
     content: '';
     transition: .3s ease-in;
     height: 3px;
@@ -63,7 +63,7 @@ https://preview.colorlib.com/theme/interior2/img/prise/3.png */
 .menu-design ul li a:hover::before{
     width: 100%;
     transition: .3s ease-in;
-}
+} */
 .menu-right a{
     text-transform: capitalize;
     font-weight: 500;
