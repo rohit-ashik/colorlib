@@ -133,10 +133,25 @@
 
 
 /********************************************
-           Progress bar plugin section-desigon ends here
+           navbar sticky js  here
 ********************************************/
 
+window.addEventListener('scroll' , function (){
+    var mst = document.querySelector('header');
+    mst.classList.toggle('sticky', window.scrollY > 300);
+});
 
+
+
+// var num = 200; //number of pixels before modifying styles
+// var mst = document.querySelector('header');
+// $(window).bind('scroll', function () {
+//     if ($(window).scrollTop() > num) {
+//         $('mst').addClass('sticky');
+//     } else {
+//         $('mst').removeClass('sticky');
+//     }
+// });
 
 
 
