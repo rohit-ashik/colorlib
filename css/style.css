@@ -41,7 +41,7 @@ https://preview.colorlib.com/theme/interior2/img/prise/3.png */
     text-transform: capitalize;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
-    padding: 8px 16px;
+    
 }
 
 .nav-link{
@@ -95,6 +95,9 @@ https://preview.colorlib.com/theme/interior2/img/prise/3.png */
     outline: none;
     box-shadow: none;
 
+}
+nav .navbar-collapse.collapsing ul, nav .navbar-collapse.show ul {
+    margin-top: 0rem !important;
 }
 .dropdown-menu li{
     
