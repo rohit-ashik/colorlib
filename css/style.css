@@ -1199,6 +1199,12 @@ footer section carousel design
     font-weight: 500;
 
 }
+.last-right button:focus{
+    
+    outline: none;
+    box-shadow: none;
+
+}
 .last-right input:focus{
     outline: none  !important;
     box-shadow: none;
