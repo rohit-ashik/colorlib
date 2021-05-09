@@ -1203,7 +1203,7 @@ footer section carousel design
     
     outline: none;
     box-shadow: none;
-
+    border: none;
 }
 .last-right input:focus{
     outline: none  !important;
